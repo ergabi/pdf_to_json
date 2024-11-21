@@ -74,3 +74,4 @@ def generate_answer(text, question,threshold=0.1):
     if answer['score'] < threshold:
         return "Invalid question"
     return answer['answer']
+
